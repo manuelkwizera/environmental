@@ -709,6 +709,13 @@ footer p {
 	}
 }
 
+.service-dropdown-menu {
+    display: none;
+}
+.service-dropdown:hover .service-dropdown-menu {
+    display: block;
+}
+
 
 
 
