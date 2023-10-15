@@ -367,8 +367,9 @@ footer p {
 
 .full-title{
 	padding: 80px 0px;
-	background: url(../images/all-title-bg.jpg) no-repeat center;
+	background: url(../images/new/all-title-bg.jpg) no-repeat center;
 	position: relative;
+	height: 250px;
 }
 .full-title:before{
 	content: "";
@@ -510,7 +511,7 @@ footer p {
 
 .test{
 	border-radius: 4.8px;
-	padding: 13px;
+	padding: 9px;
 	background: #4e3914;
 	color: #4eae3a;
 	display: inline-block;
