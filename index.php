@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-    <?php include 'layouts/head.php'; ?>
+    <?php include('layouts/head.php'); ?>
     <body>
-        <?php include 'layouts/navbar.php'; ?>
+        <?php include('layouts/navbar.php'); ?>
         <div class="full-title">
             <div class="container">
                 <h1 class="mt-4 mb-3"></h1>
@@ -112,7 +112,7 @@
             </div>
         </div>
         
-        <?php include 'layouts/footer.php'; ?>
-        <?php include 'layouts/scripts.php'; ?>
+        <?php include('layouts/footer.php'); ?>
+        <?php include('layouts/scripts.php'); ?>
     </body>
 </html>
