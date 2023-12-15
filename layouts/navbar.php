@@ -21,11 +21,11 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link <?= strpos($_SERVER['REQUEST_URI'], 'index.php') !== false ? 'active' : '' ?>" href="<?= $rootUrl ?>/index.php">Home</a>
+                    <a class="nav-link <?= strpos($_SERVER['REQUEST_URI'], 'index.php') !== false ? 'active' : '' ?>" href="index.php">Home</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link <?= strpos($_SERVER['REQUEST_URI'], 'about.php') !== false ? 'active' : '' ?>" href="<?= $rootUrl ?>/about.php">About</a>
+                    <a class="nav-link <?= strpos($_SERVER['REQUEST_URI'], 'about.php') !== false ? 'active' : '' ?>" href="about.php">About</a>
                 </li>
 
                 <li class="nav-item dropdown service-dropdown">
