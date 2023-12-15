@@ -1,12 +1,13 @@
 <!-- <style>
-    .dropdown:hover .dropdown-menu {
+    #resource-list:hover #resource-menu {
         display: block;
     }
 
-    .dropdown-menu {
+    #resource-menu {
         display: none;
     }
 </style> -->
+
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-light top-nav fixed-top">
     <div class="container">
         <a class="navbar-brand" href="index.html">
@@ -20,15 +21,15 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" href="<?= $rootUrl ?>/index.php">Home</a>
+                    <a class="nav-link <?= strpos($_SERVER['REQUEST_URI'], 'index.php') !== false ? 'active' : '' ?>" href="<?= $rootUrl ?>/index.php">Home</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="<?= $rootUrl ?>/about.php">About</a>
+                    <a class="nav-link <?= strpos($_SERVER['REQUEST_URI'], 'about.php') !== false ? 'active' : '' ?>" href="<?= $rootUrl ?>/about.php">About</a>
                 </li>
 
                 <li class="nav-item dropdown service-dropdown">
-                    <a class="nav-link" href="<?= $rootUrl ?>/services.php" id="service-dropdown">Services <i class="fas fa-caret-down"></i></a>
+                    <a class="nav-link <?= strpos($_SERVER['REQUEST_URI'], 'services') !== false ? 'active' : '' ?>" href="<?= $rootUrl ?>/services.php" id="service-dropdown">Services <i class="fas fa-caret-down"></i></a>
                     <div class="dropdown-menu dropdown-menu-right service-dropdown-menu" aria-labelledby="navbarDropdownBlog">
                         <a class="dropdown-item" href="<?= $rootUrl ?>/services/chimney-and-stack-emissions-monitoring.php" style="text-transform: uppercase;">Chimney And Stack Emissions Monitoring</a>
                         <a class="dropdown-item" href="<?= $rootUrl ?>/services/ambient-and-indoor-air-quality-measurements.php" style="text-transform: uppercase;">Ambient And Indoor Air Quality Measurements</a>
@@ -41,19 +42,19 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link"  href="<?= $rootUrl ?>/projects.php">Projects</a>
+                    <a class="nav-link <?= strpos($_SERVER['REQUEST_URI'], 'projects.php') !== false ? 'active' : '' ?>"  href="<?= $rootUrl ?>/projects.php">Projects</a>
                 </li>
 
-                <li class="nav-item dropdown resource-menu">
-                    <a class="nav-link dropdown-toggle" href="#" id="resource-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">RESOURCES</a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="resource-menu">
+                <li class="nav-item dropdown resource" id="resource-list">
+                    <a class="nav-link dropdown-toggle <?= strpos($_SERVER['REQUEST_URI'], 'testimonials.php') || strpos($_SERVER['REQUEST_URI'], 'faq.php') !== false ? 'active' : '' ?>" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">RESOURCES</a>
+                    <div class="dropdown-menu dropdown-menu-right" id="resource-menu" aria-labelledby="resource-menu">
                         <a class="dropdown-item" href="<?= $rootUrl ?>/faq.php">FAQ</a>
                         <a class="dropdown-item" href="<?= $rootUrl ?>/testimonials.php">TESTIMONIALS</a>
                     </div>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="<?= $rootUrl ?>/contact.php">Contact</a>
+                    <a class="nav-link <?= strpos($_SERVER['REQUEST_URI'], 'contact.php') !== false ? 'active' : '' ?>" href="<?= $rootUrl ?>/contact.php">Contact</a>
                 </li>
             </ul>
         </div>

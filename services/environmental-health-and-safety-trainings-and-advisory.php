@@ -1,75 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>Genius Environmental Ltd</title>
-        <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="../css/all.css" rel="stylesheet">
-        <link href="../css/style.css" rel="stylesheet">
-    </head>
+    <?php include('../layouts/head.php'); ?>
     <body>
-        <!-- Navigation -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-light top-nav fixed-top">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">
-                <img src="../images/new/logo.png" alt="logo" />
-                </a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="fas fa-bars"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="../index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../about.html">About</a>
-                        </li>
-
-                        <li class="nav-item dropdown service-dropdown">
-                            <a class="nav-link active" href="../services.html" id="service-dropdown">
-                                Services <i class="fas fa-caret-down"></i>
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-right service-dropdown-menu" aria-labelledby="navbarDropdownBlog">
-                                <a class="dropdown-item" href="chimney-and-stack-emissions-monitoring.html" style="text-transform: uppercase;">Chimney And Stack Emissions Monitoring</a>
-                                <a class="dropdown-item" href="ambient-and-indoor-air-quality-measurements.html" style="text-transform: uppercase;">Ambient And Indoor Air Quality Measurements</a>
-                                <a class="dropdown-item" href="noise-pollution-monitoring-and-advisory.html" style="text-transform: uppercase;">Noise Pollution Monitoring And Advisory</a>
-                                <a class="dropdown-item" href="environmental-health-and-safety-trainings-and-advisory.html" style="text-transform: uppercase;">Environmental, Health And Safety Trainings And Advisory</a>
-                                <a class="dropdown-item" href="vibration-monitoring-and-advisory-for-blasting-activities.html" style="text-transform: uppercase;">Vibration Monitoring And Advisory For Blasting Activities </a>
-                                <a class="dropdown-item" href="wastewater-management-and-treatment.html" style="text-transform: uppercase;">Wastewater Management And Treatment</a>
-                                <a class="dropdown-item" href="environmental_and_social_impact_assessment.html" style="text-transform: uppercase;"> Environmental and social Impact assessment</a>
-                            </div>
-                        </li>
-
-
-                      
-                        <li class="nav-item">
-                            <a class="nav-link"  href="../projects.html">Projects</a>
-                        </li>
-
-             
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Pages
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                                <a class="dropdown-item" href="../faq.html">FAQ</a>
-                                <!-- <a class="dropdown-item" href="404.html">404</a> -->
-                                <a class="dropdown-item" href="../testimonials.html">TESTIMONIALS</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-       
-        <!-- Page Content -->
+        <?php include('../layouts/navbar.php'); ?>
         <div class="container">
             <div class="breadcrumb-main">
                 <ol class="breadcrumb">
@@ -138,23 +71,7 @@
             </div>
             <!-- /.row -->
         </div>
-        <!-- /.container -->
-        <!--footer starts from here-->
-        <footer class="footer">
-            <div class="container">
-                <p class="copyright text-center mt-4">
-                    All Rights Reserved. &copy; 2023 Genous Environmental Ltd 
-                </p>
-                <ul class="social_footer_ul">
-                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                </ul>
-            </div>
-        </footer>
-        <!-- Bootstrap core JavaScript -->
-        <script src="vendor/jquery/jquery.min.js"></script>
-        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <?php include('../layouts/footer.php') ?>       
+        <?php include('../layouts/scripts.php') ?>       
     </body>
 </html>

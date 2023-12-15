@@ -1,53 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>Genius Environmental Ltd</title>
-        <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="../css/all.css" rel="stylesheet">
-        <link href="../css/style.css" rel="stylesheet">
-    </head>
+    <?php include('../layouts/head.php'); ?>
     <body>
-        <!-- Navigation -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-light top-nav fixed-top">
-            <div class="container">
-                <a class="navbar-brand" href="index.html"><img src="../images/new/logo.png" alt="logo" /></a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="fas fa-bars"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="../index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../services.html">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active"  href="../projects.html">Projects</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
-                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                                <a class="dropdown-item" href="faq.html">FAQ</a>
-                                <a class="dropdown-item" href="testimonials.html">Testimonials</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-       
-        <!-- Page Content -->
+        <?php include('../layouts/navbar.php'); ?>
         <div class="container">
             <div class="breadcrumb-main">
                 <ol class="breadcrumb">
@@ -70,7 +25,6 @@
                     <p style="text-align: justify;">During this project, we tested the chimney stacks, focusing on the pollutants they discharge into the atmosphere. We paid particular attention to emissions such as SO2, NO, NOx, PM, CxHy, CO, and CO2, utilizing the latest portable emission testing equipment.</p>
                     <p style="text-align: justify;">For ambient conditions, we conducted intensive monitoring of ambient air pollutants, assessing their variability and ensuring compliance with both local and international standards.</p>
                     <p style="text-align: justify;">The recommendations and mitigation measures we provided for this factory were pivotal in ensuring its compliance. Furthermore, they significantly reduced community concerns about the factory's impact on the deterioration of ambient air quality in the vicinity.</p>
-                    
                     <p class="project-date-location"><strong>From:</strong> March 2019 <strong>To:</strong> Present</p>
                     <p class="project-date-location"><strong>Location:</strong> Rwamagana District, Eastern Province of Rwanda</p>
                 </div>
@@ -123,23 +77,7 @@
             </div>
             <!-- /.row -->
         </div>
-        <!-- /.container -->
-        <!--footer starts from here-->
-        <footer class="footer">
-            <div class="container">
-                <p class="copyright text-center mt-4">
-                    All Rights Reserved. &copy; 2023 Genous Environmental Ltd 
-                </p>
-                <ul class="social_footer_ul">
-                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                </ul>
-            </div>
-        </footer>
-        <!-- Bootstrap core JavaScript -->
-        <script src="vendor/jquery/jquery.min.js"></script>
-        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <?php include('../layouts/footer.php'); ?>
+        <?php include('../layouts/scripts.php'); ?>
     </body>
 </html>
