@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-    <?php include('../layouts/head.php'); ?>
+    <?php include('../sub_layouts/head.php'); ?>
     <body>
-        <?php include('../layouts/navbar.php'); ?>
+        <?php include('../sub_layouts/navbar.php'); ?>
         <div class="container">
             <div class="breadcrumb-main">
                 <ol class="breadcrumb">
@@ -76,7 +76,7 @@
             </div>
             <!-- /.row -->
         </div>
-        <?php include('../layouts/footer.php'); ?>
-        <?php include('../layouts/scripts.php'); ?>
+        <?php include('../sub_layouts/footer.php'); ?>
+        <?php include('../sub_layouts/scripts.php'); ?>
     </body>
 </html>

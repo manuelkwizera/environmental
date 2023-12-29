@@ -4,7 +4,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Genius Environmental Ltd</title>
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/all.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/all.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
 </head>
