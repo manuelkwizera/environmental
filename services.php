@@ -110,7 +110,7 @@
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <a href="services/environmental-health-and-safety-trainings-and-advisory.php">
-                                            <img class="img-fluid rounded" src="images/new/services/list/services-img-09.png" alt="" />
+                                            <img class="img-fluid rounded" src="images/new/services/list/services-img-09.jpeg" alt="" />
                                         </a>
                                     </div>
                                     <div class="col-lg-6">
