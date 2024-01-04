@@ -24,7 +24,7 @@
                         <a class="dropdown-item" href="../services/chimney-and-stack-emissions-monitoring.php" style="text-transform: uppercase;">Chimney And Stack Emissions Monitoring</a>
                         <a class="dropdown-item" href="../services/ambient-and-indoor-air-quality-measurements.php" style="text-transform: uppercase;">Ambient And Indoor Air Quality Measurements</a>
                         <a class="dropdown-item" href="../services/noise-pollution-monitoring-and-advisory.php" style="text-transform: uppercase;">Noise Pollution Monitoring And Advisory</a>
-                        <a class="dropdown-item" href="../services/environmental-health-and-safety-trainings-and-advisory.php" style="text-transform: uppercase;">Environmental, Health And Safety Trainings And Advisory</a>
+                        <a class="dropdown-item" href="../services/environmental-health-and-safety-trainings.php" style="text-transform: uppercase;">Environmental, Health And Safety Trainings</a>
                         <a class="dropdown-item" href="../services/vibration-monitoring-and-advisory-for-blasting-activities.php" style="text-transform: uppercase;">VVibration Monitoring And Advisory For Blasting Activities </a>
                         <a class="dropdown-item" href="../services/wastewater-management-and-treatment.php" style="text-transform: uppercase;">Wastewater Management And Treatment</a>
                         <a class="dropdown-item" href="../services/environmental_and_social_impact_assessment.php" style="text-transform: uppercase;"> Environmental and social Impact assessment</a>

@@ -109,14 +109,14 @@
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-lg-6">
-                                        <a href="services/environmental-health-and-safety-trainings-and-advisory.php">
+                                        <a href="services/environmental-health-and-safety-trainings.php">
                                             <img class="img-fluid rounded" src="images/new/services/list/services-img-09.jpeg" alt="" />
                                         </a>
                                     </div>
                                     <div class="col-lg-6">
-                                        <h2 class="card-title">Environmental, health and Safety Trainings and Advisory</h2>
+                                        <h2 class="card-title">Environmental, health and Safety Trainings</h2>
                                         <p class="card-text">We excel in technical testing, securing product and system reliability. With expertise, cutting-edge facilities, and tailored services, we offer functional, performance, and security testing, ensuring compliance and precision in your technical assets.</p>
-                                        <a href="services/environmental-health-and-safety-trainings-and-advisory.php" class="btn btn-primary">Read More &rarr;</a>
+                                        <a href="services/environmental-health-and-safety-trainings.php" class="btn btn-primary">Read More &rarr;</a>
                                     </div>
                                 </div>
                             </div>

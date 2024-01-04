@@ -73,7 +73,7 @@
                             <li class="test"><a href="services/ambient-and-indoor-air-quality-measurements.php" style="color: inherit;">Ambient and indoor air quality measurements</a></li>
                             <li class="test"><a href="services/chimney-and-stack-emissions-monitoring.php" style="color: inherit;">Chimney and Stack Emissions Monitoring</a></li>
                             <li class="test"><a href="services/noise-pollution-monitoring-and-advisory.php" style="color: inherit;">Noise Pollution  Monitoring  And Advisory</a></li>
-                            <li class="test"><a href="services/environmental-health-and-safety-trainings-and-advisory.php" style="color: inherit;">Environmental, health and Safety Trainings and Advisory</a></li>
+                            <li class="test"><a href="services/environmental-health-and-safety-trainings.php" style="color: inherit;">Environmental, health and Safety Trainings</a></li>
                             <li class="test"><a href="services/vibration-monitoring-and-advisory-for-blasting-activities.php" style="color: inherit;">Vibration Monitoring and Advisory for Blasting Activities</a></li>
                             <li class="test"><a href="services/wastewater-management-and-treatment.php" style="color: inherit;">Wastewater Management and Treatment</a></li>
                             <li class="test"><a href="services/environmental_and_social_impact_assessment.php" style="color: inherit;">Environmental and social Impact assessment.</a></li>
